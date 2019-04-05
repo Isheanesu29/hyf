@@ -1,0 +1,31 @@
+#grid-floats {
+    float: left;
+}
+
+#grid-floats .grid-item {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+#grid-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+@media(min-width: 1024px) {
+    #grid-floats .grid-item,
+    #grid-flex .grid-item{
+        width: 30%;
+        margin: 0 5px;
+        
+    }
+
+    
+}
