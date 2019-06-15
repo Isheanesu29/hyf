@@ -78,7 +78,7 @@
 		
 		/* RESPONSIVE FLEX & FLOAT*/
 
-		/*@media(min-width: 670px) {
+		@media(min-width: 670px) {
 
 			#grid-float .grid-item {
 				width: 20%;
@@ -106,9 +106,19 @@
 			#grid-floats .grid-item{
 				width: 30%;
 			}
+			#grid-flex .grid-item:first-child {
+				width: 42%;
+			}
+			#grid-flex .grid-item:nth-child(2){
+				width: 47%;
+			}
+			#grid-flex .grid-item{
+				width: 27%;
+				justify-content: space-around;
+			}
 		}
 
-	/*	@media(min-width: 1024px) {
+		@media(min-width: 1024px) {
 
 
 			#grid-floats .grid-item {
@@ -139,11 +149,4 @@
 
 		}
 		
-		@media(min-width: 1366px) {
-			
-			
-		}
-
-		@media(min-width: 1920px) {
-			
-		}
+		
